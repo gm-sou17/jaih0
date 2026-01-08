@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container{
+    background-color: rgb(86, 84, 81);
+    border: 2px solid rgb(182, 171, 171);
+    font-size: 50px;
+    padding: 10px;
+    color: blanchedalmond;
+    width: 70%;
+    height: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+p{
+    
+    animation-name: p;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes p {
+    from{
+        margin-left: 100%;
+
+    }
+ to{
+ margin-left: -100%;
+ }    
+}
